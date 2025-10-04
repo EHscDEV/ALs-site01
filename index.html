@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- /Google fonts -->
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Bootstraps icons-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<!-- Bootstraps icons-->
+
+<!-- AOS (Animate On Scroll) - Biblioteca de animações quando rola a página -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+<!-- AOS (JS) - Inicializa as animações no scroll -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+
+  <!-- Scripts de CSS -->
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <!-- Script CSS Responcivo -->
+   <link rel="stylesheet" href="css/responcive.css" media="screen">
+  <!-- Scripts de JS -->
+   <script src="js/menu.js" defer></script>
+   <script src="js/btn-menu-mob.js" defer></script>
+   <script src="js/carrosel-depoimentos.js" defer></script>
+   <script src="js/certificados.js" defer></script>
+   <script src="js/carrosel-img-serviços.js" defer></script>
+   <script src="js/carrossel-img-serviçoss.js" defer></script>
+
+
+  <title>modelo 1</title>
+</head>
+<body>
+  
+  <header id="header">
+
+    <div class="interface">
+
+        <section class="logo">
+          <img class="logo-branca" src="img/imagem.logo.png" alt="logotipo do site">
+          <img class="logo-preta" src="img/imagem.logo.png" alt="logotipo do site">
+        </section>
+
+        <section class="menu-desktop">
+          <nav>
+            <ul>
+              <li><a href="#sobre-nos">Sobre Nós </a></li>
+              <li><a href="#solicite-orcamento">Faço Seu Orçamento </a></li>
+              <li><a href="#depoimentos">Depoimentos </a></li>
+              <li><a href="#image-gallery-container">Nossos Serviços </a></li>
+            </ul>
+          </nav>
+        </section>
+
+        <section class="btn-contato">
+             <a href="https://wa.me/5519992251525" target="_blank">
+                <button>contato</button>
+             </a>  
+        </section>
+
+        <div class="btn-menu-mob" id="btn-menu-mob">
+          <div class="line-menumob-1"></div>
+          <div class="line-menumob-2"></div>
+        </div>
+
+        <section class="menu-mobile" id="menu-mobile">
+          <nav>
+            <ul>
+              <li><a href="#sobre-nos">Sobre Nós </a></li>
+              <li><a href="#solicite-orcamento">Faço Seu Orçamento </a></li>
+              <li><a href="#depoimentos">Depoimentos </a></li>
+              <li><a href="#image-gallery-container">Nossos Serviços </a></li>
+            </ul>
+          </nav>
+        </section>
+
+    </div>
+
+  </header>
+
+  <section class="hero-site">
+
+    <div class="interface">
+
+      <div class="txt-hero">
+
+          <h1>Bem-vindo à<span> ALS refrigeração comercial Ar-Condicionado E elétrica</span></h1>
+          <p> soluções eficientese preço justo.</span></p>
+         <a href="https://wa.me/5519992251525" target="_blank">
+               <button>Fale agora!</button>
+         </a>
+      </div>
+
+    </div>
+
+  </section>
+
+<!-- Certificados -->
+<section class="certificados-section">
+  <h2>Certificados</h2>
+  <div class="carousel-container">
+    <div class="carousel-track" id="carousel-track">
+      <img src="img/certificado.1.jpg" alt="Certificado 1" class="cert-img">
+      <img src="img/certificado.2.jpg" alt="Certificado 2" class="cert-img">
+      <img src="img/certificado.3.jpg" alt="Certificado 3" class="cert-img">
+      <img src="img/certificado.4.jpg" alt="Certificado 4" class="cert-img">
+      <img src="img/certificado.5.jpg" alt="Certificado 5" class="cert-img">
+      <img src="img/certificado.6.jpg" alt="Certificado 6" class="cert-img">
+    </div>
+  </div>
+</section>
+<!-- Overlay dos certificados -->
+<div class="overlays" id="overlay">
+  <span class="close-btn" id="closeOverlay">&times;</span>
+  <img src="" alt="Certificado ampliado" id="overlayImage">
+</div>
+
+<!-- Texto com imagem -->
+<div class="about-container" id="sobre-nos">
+  <img class="about-image" src="img/imagem.1.jpg"
+      alt="Sobre a Empresa">
+  <div class="about-text">
+
+      <h2>Sobre a <span class="highlight">Empresa</span></h2>
+      <p> ALS refrigeração comercial ar-condicionado E elétrica. Com experiência no mercado, ofereço soluções seguras
+          e eficientes para residências e empresas, sempre prezando pela qualidade e profissionalismo.
+      </p>
+      <p>
+          Trabalho com instalação e manutenção de ar-condicionado, garantindo conforto térmico e economia de
+          energia. Na área de refrigeração, realizo serviços para assegurar o funcionamento ideal de equipamentos.
+      </p>
+      <p>
+          Além disso, atuo com instalações e manutenções elétricas, seguindo todas as normas de segurança. Meu
+          compromisso é entregar um serviço de excelência, buscando sempre a melhor solução para cada cliente com
+          transparência e dedicação.
+      </p>
+  </div>
+</div>
+
+<!-- cards -->
+<section class="container">
+  <h2>Por que nos <span> escolher?</span></h2>
+  <div class="arrow"></div>
+  <div class="cards">
+      <div class="card">
+          <i class="bi bi-mortarboard"></i>
+          <div class="content">
+              <h3>Experiência mais <span>de 15 anos</span></h3>
+              <p>Somos experientes e capacitados para oferecer as melhores soluções.</p>
+          </div>
+      </div>
+      <div class="card">
+          <i class="bi bi-chat-right-text"></i>
+          <div class="content">
+              <h3>Atendimento <span>personalizado</span></h3>
+              <p>Qualidade no atendimento e execução de serviços especializados</p>
+          </div>
+      </div>
+      <div class="card">
+          <i class="bi bi-shield-check"></i>
+          <div class="content">
+              <h3>Qualidade e<span> Segurança</span></h3>
+              <p> A nossa prioridade é a segurança, com profissionais qualificados.</p>
+          </div>
+      </div>
+      <div class="card">
+          <i class="bi bi-clipboard-check"></i>
+          <div class="content">
+              <h3>Trabalhamos com<span> contrato</span></h3>
+              <p>Compromisso e transparência em cada serviço prestado.</p>
+          </div>
+  </div>
+</section>
+
+  <section class="contato" >
+      <div class="interface">
+
+          <article class="txt-contato">
+             <h3> Fale agora com a <span> nossa equipe</span></h3>
+             <p>E solicite um orçamento que cabe no seu bolso</p>
+          </article>
+
+          <article class="icon-contato">
+            <a href="https://wa.me/5519992251525" target="_blank">
+                <button><i class="bi bi-whatsapp"></i><p>Whatsapp</p></button>
+            </a>
+            <a href="https://www.facebook.com/share/17EP6pvFNj/">
+                <button><i class="bi bi-facebook"></i><p>Facebook</p></button>
+            </a>
+            <a href="https://www.instagram.com/als_refrigeracaoeeletrica/">
+                <button><i class="bi bi-instagram"></i><p>Instagram</p></button>
+            </a>
+          </article>
+
+      </div>
+  </section>
+
+<!-- Carrocel de videos  -->
+<section id="videos" class="videos-section">
+  <div class="container">
+    <h2 class="title">Assista aos nossos vídeos</h2>
+    <div class="video-grid">
+      <!-- Vídeo 1 -->
+      <div class="video-item" data-aos="fade-up" data-aos-delay="100">
+        <video controls>
+          <source src="videos/video.1.mp4" type="video/mp4">
+          Seu navegador não suporta vídeos HTML5.
+        </video>
+      </div>
+      <!-- Vídeo 2 -->
+      <div class="video-item" data-aos="fade-up" data-aos-delay="200">
+        <video controls>
+          <source src="videos/video.2.mp4" type="video/mp4">
+          Seu navegador não suporta vídeos HTML5.
+        </video>
+      </div>
+      <!-- Vídeo 3 -->
+      <div class="video-item" data-aos="fade-up" data-aos-delay="300">
+        <video controls>
+          <source src="videos/video.3.mp4" type="video/mp4">
+          Seu navegador não suporta vídeos HTML5.
+        </video>
+      </div>
+      <!-- Vídeo 4 -->
+      <div class="video-item" data-aos="fade-up" data-aos-delay="300">
+        <video controls>
+          <source src="videos/video.4.mp4" type="video/mp4">
+          Seu navegador não suporta vídeos HTML5.
+        </video>
+      </div>
+      <!-- Vídeo 5 -->
+      <div class="video-item" data-aos="fade-up" data-aos-delay="300">
+        <video controls>
+          <source src="videos/video.5.mp4" type="video/mp4">
+          Seu navegador não suporta vídeos HTML5.
+        </video>
+      </div>
+      <!-- Vídeo 6 -->
+      <div class="video-item" data-aos="fade-up" data-aos-delay="300">
+        <video controls>
+          <source src="videos/video.6.mp4" type="video/mp4">
+          Seu navegador não suporta vídeos HTML5.
+        </video>
+      </div>
+      <!-- Vídeo 7 -->
+      <div class="video-item" data-aos="fade-up" data-aos-delay="300">
+        <video controls>
+          <source src="videos/video.7.mp4" type="video/mp4">
+          Seu navegador não suporta vídeos HTML5.
+        </video>
+      </div>
+      <!-- Vídeo 8 -->
+      <div class="video-item" data-aos="fade-up" data-aos-delay="300">
+        <video controls>
+          <source src="videos/video.8.mp4" type="video/mp4">
+          Seu navegador não suporta vídeos HTML5.
+        </video>
+      </div>
+      <!-- Vídeo 9 -->
+      <div class="video-item" data-aos="fade-up" data-aos-delay="300">
+        <video controls>
+          <source src="videos/video.9.mp4" type="video/mp4">
+          Seu navegador não suporta vídeos HTML5.
+        </video>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  AOS.init();
+</script>
+
+<!-- solicite um orçamento -->
+  <section class="hoteis" id="solicite-orcamento">
+  <div class="interface">
+    <h3>
+      Precisando de <span>manutenção ou montagem de câmera frigorífica?</span>
+    </h3>
+    <p class="regioes">
+      Atendemos Louveira, Vinhedo, Itatiba, Valinhos, Jundiaí, Cajamar, Itupeva, Amparo, Várzea Paulista e região.
+    </p>
+    <p>
+      Manutenção preventiva e corretiva em câmaras frigoríficas e todos os modelos de ar-condicionado.
+    </p>
+    <a href="#">
+      <button>Solicite Seu Orçamento</button>
+    </a>
+  </div>
+  <div class="overlay"></div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section class="depoimentos text-center py-5" id="depoimentos">
+  <!-- TÍTULO -->
+  <div class="titulo-depoimentos mb-4">
+    <h2 class="fw-bold">
+      <span class="text-dark">Clientes</span>
+      <span class="text-warning">atendidos</span>
+    </h2>
+    <i class="bi bi-caret-down-fill fs-3 text-dark"></i>
+  </div>
+
+  <!-- AVALIAÇÃO GOOGLE -->
+  <div class="google-rating mx-auto">
+    <h5 class="fw-bold text-dark mb-2">ÓTIMO</h5>
+
+    <div class="stars text-warning fs-4 mb-2">
+      ★★★★★ 5,0
+    </div>
+
+    <p class="fw-semibold text-dark mb-2">
+      Com base em <span class="fw-bold">11 avaliações</span>
+    </p>
+
+    <div class="google-logo mb-2">
+      <span style="color:#4285F4;">G</span>
+      <span style="color:#DB4437;">o</span>
+      <span style="color:#F4B400;">o</span>
+      <span style="color:#4285F4;">g</span>
+      <span style="color:#0F9D58;">l</span>
+      <span style="color:#DB4437;">e</span>
+    </div>
+
+    <div class="ver-no-google mt-2">
+      <a href="https://www.google.com/search?q=ALS+refrigera%C3%A7%C3%A3o+comercial+ar-condicionado+E+el%C3%A9trica&stick=H4sIAAAAAAAA_-NgU1I1qDBKMjQ3SLMwMDOwMDE1Nk-zMqhISjIxNzBPMjEzBoonmRstYrVw9AlWKEpNK8pMTy1KPLz88OJ8heT83NSi5MzEHIXEIt3k_LyUzOTM_LzElHwFV4XUnMMrS4oykxMBI6gFcmQAAAA&hl=pt-BR&mat=Ca5looHRTFqaElcBYJahaaSY4ncFoEbCNxfM3XMA07ipJn_cGnhA2j1t-8Na2ytJHv4DlUoMtTChVFdScWGVVeM0lh8ykdM7D-Wef-SvHD78hCUfPbALGpuBOO8VpLhyqQ8&authuser=0" class="text-decoration-none text-dark" target="_blank">
+        Ver no Google <i class="bi bi-box-arrow-up-right"></i>
+      </a>
+    </div>
+  </div>
+</section>
+  
+ <!-- Caixa Cinza com os depoimentos -->
+<div class="container bg-light rounded p-4 shadow">
+  <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Depoimento 1 -->
+      <div class="carousel-item active">
+        <div class="testimonial-box p-4 text-center">
+          <img src="img/Vanessa Cavalcanti.png" alt="Foto de Vanessa Cavalcanti" class="rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
+          <h5 class="fw-bold mt-2">Vanessa Cavalcanti</h5>
+          <p class="mb-1">O Sr. Luis é um excelente profissional! Extremamente detalhista e cuidadoso com o trabalho, demonstra grande dedicação e capricho em cada serviço realizado. Recomendo de olhos fechados!</p>
+          <div class="text-warning">
+            ★★★★★ <span class="text-muted">5 estrelas</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Depoimento 2 -->
+      <div class="carousel-item">
+        <div class="testimonial-box p-4 text-center">
+          <img src="img/Roberto Faria.png" alt="Foto de Roberto Faria" class="rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
+          <h5 class="fw-bold mt-2">Roberto Faria</h5>
+          <p class="mb-1">Essa empresa realizou tanto a instalação como a manutenção em nossos aparelhos de ar-condicionado com eficácia e profissionalismo. Recomendo fortemente os serviços da ALS.</p>
+          <div class="text-warning">
+            ★★★★★ <span class="text-muted">5 estrelas</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Depoimento 3 -->
+      <div class="carousel-item">
+        <div class="testimonial-box p-4 text-center">
+          <img src="img/Rafael Santos.png" alt="Foto de Rafael Santos" class="rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
+          <h5 class="fw-bold mt-2">Rafael Santos</h5>
+          <p class="mb-1">Excelente profissional com preço justo.</p>
+          <div class="text-warning">
+            ★★★★★ <span class="text-muted">5 estrelas</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Depoimento 4 -->
+      <div class="carousel-item">
+        <div class="testimonial-box p-4 text-center">
+          <img src="img/Miraldo Pereira Marques.png" alt="Foto de Miraldo Pereira Marques" class="rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
+          <h5 class="fw-bold mt-2">Miraldo Pereira Marques</h5>
+          <p class="mb-1">Excelente profissional,trabalho de qualidade, atencioso, agilidade e garantia,</p>
+          <div class="text-warning">
+            ★★★★★ <span class="text-muted">5 estrelas</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Depoimento 5 -->
+      <div class="carousel-item">
+        <div class="testimonial-box p-4 text-center">
+          <img src="img/Cristiano Das neves norte guimaraes.png" alt="Foto de Cristiano Das neves norte guimaraes.png" class="rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
+          <h5 class="fw-bold mt-2">Cristiano Das neves norte guimaraes</h5>
+          <p class="mb-1">Profissional nota 10.
+O cara é perfeccionista, deixou a condensadora e evaporadora tudo Alinhadinho do jeito que eu pedi. Serviço top mesmo.</p>
+          <div class="text-warning">
+            ★★★★★ <span class="text-muted">5 estrelas</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Depoimento 6 -->
+      <div class="carousel-item">
+        <div class="testimonial-box p-4 text-center">
+          <img src="img/Neila Wenderoscky.png" alt="Foto de Neila Wenderoscky" class="rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
+          <h5 class="fw-bold mt-2">Neila Wenderoscky</h5>
+          <p class="mb-1">Excelente profissional, instalação, manutenção...tudo com muita qualidade.
+Recomendo a empresa</p>
+          <div class="text-warning">
+            ★★★★★ <span class="text-muted">5 estrelas</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Depoimento 7 -->
+      <div class="carousel-item">
+        <div class="testimonial-box p-4 text-center">
+          <img src="img/Adriana Magre Anghinon.png" alt="Foto de Adriana Magre Anghinon" class="rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
+          <h5 class="fw-bold mt-2">Adriana Magre Anghinon</h5>
+          <p class="mb-1">Recomendo os serviços da empresa. A instalação do aparelho de ar condicionado ficou perfeita. Os serviços elétricos também são excelentes. Profissional que realmente entende do assunto</p>
+          <div class="text-warning">
+            ★★★★★ <span class="text-muted">5 estrelas</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Depoimento 8-->
+      <div class="carousel-item">
+        <div class="testimonial-box p-4 text-center">
+          <img src="img/Naldo Nunes.png" alt="Foto de Naldo Nunes" class="rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
+          <h5 class="fw-bold mt-2">Naldo Nunes</h5>
+          <p class="mb-1">Serviço perfeito, gostei muito,super indico, qualidade total.</p>
+          <div class="text-warning">
+            ★★★★★ <span class="text-muted">5 estrelas</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Adicione mais depoimentos aqui se quiser -->
+
+    </div>
+
+    <!-- Setas do Carrossel -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
+</div>
+<!-- /DEPOIMENTOS -->
+
+<!-- COMO FUNCIONA -->
+  <section class="como-funciona">
+      <div class="interface">
+
+        <div class="txt-funciona">
+          <h3>Nossos <span>Serviços</span></h3>
+        </div>
+
+        <div class="instrucoes">
+
+          <!-- primeira box -->
+            <article class="instru-box">
+
+                <div class="icon">
+                  <i class="bi bi-check-circle-fill"></i>
+                </div>
+
+                <div class="txt-instru-box">
+                  <h4> Instalação <span>de Ar-Condicionado</span></h4>
+                  <p>Instalação segura e eficiente para seu conforto térmico.</p>
+                </div>
+
+            </article>
+
+            <!-- segunda box -->
+            <article class="instru-box">
+
+                <div class="icon">
+                  <i class="bi bi-check-circle-fill"></i>
+                </div>
+
+                <div class="txt-instru-box">
+                  <h4> Manutenção<span>Preventiva e corretiva</span></h4>
+                  <p>Evite problemas futuros com revisões periódicas.</p>
+                </div>
+
+            </article>
+
+            <!-- terceira box -->
+            <article class="instru-box">
+
+                <div class="icon">
+                  <i class="bi bi-check-circle-fill"></i>
+                </div>
+
+                <div class="txt-instru-box">
+                  <h4>Limpeza e higienização <span>de Ar-Condicionado</span></h4>
+                  <p>Instalação segura e eficiente para seu conforto térmico.</p>
+                </div>
+
+            </article>
+
+            <!-- quarta box -->
+            <article class="instru-box">
+
+                <div class="icon">
+                  <i class="bi bi-check-circle-fill"></i>
+                </div>
+
+                <div class="txt-instru-box">
+                  <h4>Carga de fluido<span>refrigerante(gás)</span></h4>
+                  <p>Reabastecimento seguro para manter seu aparelho eficiente.</p>
+                </div>
+
+            </article>
+
+            <!-- quarta box -->
+            <article class="instru-box">
+
+                <div class="icon">
+                  <i class="bi bi-check-circle-fill"></i>
+                </div>
+
+                <div class="txt-instru-box">
+                  <h4>Reparo <span>de Sistemas</span></h4>
+                  <p>Diagnóstico e solução rápida para qualquer problema técnico.</p>
+                </div>
+
+            </article>
+
+            <!-- quinta box -->
+            <article class="instru-box">
+
+                <div class="icon">
+                  <i class="bi bi-check-circle-fill"></i>
+                </div>
+
+                <div class="txt-instru-box">
+                  <h4>Consultoria <span> Técnica</span></h4>
+                  <p>Orientação especializada para otimizar seu sistema de refrigeração.</p>
+                </div>
+
+            </article>
+
+            <!-- sexta box -->
+            <article class="instru-box">
+
+                <div class="icon">
+                  <i class="bi bi-check-circle-fill"></i>
+                </div>
+
+                <div class="txt-instru-box">
+                  <h4>Refrigeração comercial <span>câmera frigorifica (câmera fria) </span></h4>
+                  <p>Soluções em Refrigeração Comercial: Eficiência e Qualidade para sua Câmara Fria</p>
+                </div>
+
+            </article>
+
+        </div>
+
+      </div>
+  </section>
+
+<!-- carrossel de imagem  -->
+ <h2 class="gallery-title">Veja Nossos <span>Serviços Realizados</span></h2>
+
+  <div class="image-gallery-container" id="image-gallery-container">
+    <button class="image-nav left" onclick="scrollImages(-1)">❮</button>
+
+    <div class="image-carousel" id="imageCarousel">
+      <!-- Substitua os caminhos das imagens pelos corretos -->
+      <div class="image-wrapper"><img src="img/imagem.1.jpg" alt="" onclick="handleImageClick(this.src)"></div>
+      <div class="image-wrapper"><img src="img/imagem.2.jpg" alt="" onclick="handleImageClick(this.src)"></div>
+      <div class="image-wrapper"><img src="img/imagem.3.jpg" alt="" onclick="handleImageClick(this.src)"></div>
+      <div class="image-wrapper"><img src="img/imagem.4.jpg" alt="" onclick="handleImageClick(this.src)"></div>
+      <div class="image-wrapper"><img src="img/imagem.5.jpg" alt="" onclick="handleImageClick(this.src)"></div>
+      <div class="image-wrapper"><img src="img/imagem.6.jpg" alt="" onclick="handleImageClick(this.src)"></div>
+      <div class="image-wrapper"><img src="img/imagem.7.jpg" alt="" onclick="handleImageClick(this.src)"></div>
+      <div class="image-wrapper"><img src="img/imagem.8.jpg" alt="" onclick="handleImageClick(this.src)"></div>
+      <div class="image-wrapper"><img src="img/imagem.9.jpg" alt="" onclick="handleImageClick(this.src)"></div>
+      <div class="image-wrapper"><img src="img/imagem.10.jpg" alt="" onclick="handleImageClick(this.src)"></div>
+      <div class="image-wrapper"><img src="img/imagem.11.jpg" alt="" onclick="handleImageClick(this.src)"></div>
+      <div class="image-wrapper"><img src="img/imagem.12.jpg" alt="" onclick="handleImageClick(this.src)"></div>
+      <div class="image-wrapper"><img src="img/imagem.13.jpg" alt="" onclick="handleImageClick(this.src)"></div>
+      <div class="image-wrapper"><img src="img/imagem.14.jpg" alt="" onclick="handleImageClick(this.src)"></div>
+      <div class="image-wrapper"><img src="img/imagem.15.jpg" alt="" onclick="handleImageClick(this.src)"></div>
+      <div class="image-wrapper"><img src="img/imagem.16.jpg" alt="" onclick="handleImageClick(this.src)"></div>
+      <div class="image-wrapper"><img src="img/imagem.17.jpg" alt="" onclick="handleImageClick(this.src)"></div>
+      <div class="image-wrapper"><img src="img/imagem.18.jpg" alt="" onclick="handleImageClick(this.src)"></div>
+      <div class="image-wrapper"><img src="img/imagem.19.jpg" alt="" onclick="handleImageClick(this.src)"></div>
+      <div class="image-wrapper"><img src="img/imagem.20.jpg" alt="" onclick="handleImageClick(this.src)"></div>
+
+      <!-- ...adicione mais imagens conforme necessário... -->
+    </div>
+
+    <button class="image-nav right" onclick="scrollImages(1)">❯</button>
+  </div>
+
+  <!-- Visualização em tela cheia (mobile) -->
+  <div id="mobileViewer" class="mobile-viewer" onclick="closeMobileViewer()">
+    <img id="mobileViewerImg" src="">
+  </div>
+
+  <footer>
+    <div class="interface">
+      <section class="top-footer">
+
+        <a href="https://www.instagram.com/als_refrigeracaoeeletrica/"><button><i class="bi bi-instagram"></i></button></a>
+        <a href="https://www.facebook.com/share/17EP6pvFNj/"><button><i class="bi bi-facebook"></i></button></a>
+        <a href="https://wa.me/5519992251525" target="_blank"><button><i class="bi bi-whatsapp"></i></button></a>
+      </section>
+
+
+      <section class="middle-footer">
+            <a href="#sobre-nos">Sobre Nós </a>
+            <a href="#solicite-orcamento">Faço Seu Orçamento </a>
+            <a href="#depoimentos">Depoimentos </a>
+            <a href="#image-gallery-container">Nossos Serviços </a>
+      </section>
+      
+       <section class="button-footer">
+          <p> Empresa 2025 &copy; Todos direitos reservados</p>
+       </section>
+    </div>
+  </footer>
+
+</body>
+</html>

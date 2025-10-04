@@ -1,0 +1,156 @@
+@media screen and (max-width: 900px){
+  header .menu-desktop, header .btn-contato{
+    display: none;
+  }
+
+  header .btn-menu-mob{
+    display: block;
+  }
+
+}
+  
+@media screen and (max-width: 878px){ 
+    /* Responcivo da Hero */
+  section.hero-site {
+    background-image: url(../img/imagem.capa2.png); /* Altere para a imagem que você quer no celular */
+    background-size: cover; /* opcional: cobre toda a tela */
+    background-position: center center; /* centraliza melhor em telas pequenas */
+  }
+
+  .hero-site .txt-hero h1{
+    font-size: 2em;
+    line-height: 40px;
+  }
+    
+  .hero-site .txt-hero p{
+    font-size: 14px;
+  }
+    
+  .hero-site .txt-hero p span{
+    display: inline;
+  }
+    
+  .hero-site button{
+    font-size: 18px;
+  }
+
+  /* Responcivo texto com imagem */
+  .about-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .about-image,
+  .about-text {
+    width: 100%;
+  }
+
+  .about-text {
+    margin-bottom: 20px;
+  }
+
+  /* Responcivo dos cartões */
+  .cards {
+    justify-content: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 300px;
+  }
+
+    /* Estilo dos botoes de contato */
+  .txt-contato, .icon-contato{
+    display: block;
+    width: 100%;
+  }
+
+  .contato .txt-contato h3{
+    font-size: 2em;
+    line-height: 40px;
+  }
+
+  .contato .txt-contato p{
+    margin-bottom: 20px;
+  }
+
+  .contato .icon-contato button{
+    width: 100%;
+  }
+  /* Estilo da sessão hoteis */
+  /* Tablets (até 991px) */
+@media screen and (max-width: 991px) {
+  .hoteis .interface {
+    padding: 2rem 1rem;
+  }
+
+  .hoteis h3 {
+    font-size: 2rem;
+  }
+
+  .hoteis p {
+    font-size: 1rem;
+  }
+
+  .hoteis button {
+    width: 200px;
+    font-size: 1rem;
+  }
+}
+/* Celulares (até 600px) */
+@media screen and (max-width: 600px) {
+  .hoteis {
+    padding: 30px 15px;
+  }
+
+  .hoteis .interface {
+    border-radius: 10px;
+    padding: 1.5rem 1rem;
+  }
+
+  .hoteis h3 {
+    font-size: 1.6rem;
+  }
+
+  .hoteis p {
+    font-size: 0.95rem;
+  }
+
+  .hoteis button {
+    width: 180px;
+    height: 50px;
+    font-size: 0.95rem;
+  }
+}
+
+  /* Estilo da sessão como funciona */
+  .txt-funciona, .instrucoes{
+    display: block;
+    width: 100%;
+  }
+
+  .como-funciona .txt-funciona{
+    position: static;
+  }
+
+  .como-funciona .txt-funciona h3{
+    font-size: 3em;
+    line-height: 50px;
+  }
+
+  .instrucoes .instru-box{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* Estilo do rodapé */
+  footer .middle-footer a{
+    margin: 15px 0;
+    display: block;
+  }
+
+  footer .button-footer p{
+    font-size: 14px;
+  }
+}
+
